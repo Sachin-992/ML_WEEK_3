@@ -1,6 +1,26 @@
 # ML_WEEK_3
-<h2>CIFAR-10 Image Classification<h2>
-This project contains the implementation and comparison of three deep learning models for image classification using the CIFAR-10 dataset. The focus is on understanding CNNs, exploring the ResNet architecture to overcome vanishing gradients, and testing the impact of data augmentation.
+<h2>Project Summary<h2>
+ <h4>This repository shows my learning and implementation of deep learning models step by step using popular image datasets like CIFAR-10, Dog Breed, and MNIST.<h4>
+
+
+
+🔹 Step 1: CNN with CIFAR-10
+I started by learning and implementing a basic Convolutional Neural Network (CNN) using the CIFAR-10 dataset to understand how image classification works with deep learning.
+
+🔹 Step 2: Model Comparison on CIFAR-10
+After that, I created a file to compare three deep learning models on the CIFAR-10 dataset:
+
+  1)A basic CNN model
+
+  2)A CNN with Data Augmentation to improve accuracy
+
+  3)A CNN using ResNet architecture to solve the vanishing gradient problem
+
+🔹 Step 3: Transfer Learning with Dog Breed Dataset
+Once I understood CNNs and ResNet, I moved on to Transfer Learning. I used a pre-trained ResNet model to classify dog breeds in a new dataset, learning how to fine-tune existing models for custom tasks.
+
+🔹 Step 4: MNIST Digit Classification
+Finally, I implemented a CNN model for the MNIST handwritten digit dataset to test and practice everything I learned in a simple classification task.
  
 <h2>Learnings<h2>
  
@@ -32,3 +52,18 @@ This project contains the implementation and comparison of three deep learning m
 
 
 ![cdfdd227-b0d5-473d-a0b9-7679d49d9e17](https://github.com/user-attachments/assets/5cffd458-3ec1-4139-ba5c-3af1cb865085)
+
+
+<H1>MNIST DATASET<H1>
+
+<h3>ACCURACY AND LOSS PLOTS</h3>
+ 
+![8bc3090e-72be-4958-911f-495aae438b6c](https://github.com/user-attachments/assets/832eb44b-bb7c-4522-a10b-7bdc70ce6877)
+
+![07015e8b-e6ac-4fd9-a8c8-ae8b1c05cd85](https://github.com/user-attachments/assets/15a867e9-48fa-42e7-b98a-7e542b5264a6)
+
+<h3>PREDICTED SAMPLES<h3>
+ 
+![02d3bb78-734a-4ece-807f-c0bd816b2e8c](https://github.com/user-attachments/assets/6178027d-848a-4d3a-bf6d-3b5289d14182)
+
+![325deeb5-6106-4891-808a-1544f4bc5fe3](https://github.com/user-attachments/assets/30efc3f7-374c-4ec7-9639-9a2cc6fc0371)
