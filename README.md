@@ -10,11 +10,11 @@ I started by learning and implementing a basic Convolutional Neural Network (CNN
 🔹 Step 2: Model Comparison on CIFAR-10
 After that, I created a file to compare three deep learning models on the CIFAR-10 dataset:
 
-  1)A basic CNN model
+  1)basic CNN model
 
-  2)A CNN with Data Augmentation to improve accuracy
+  2)CNN with Data Augmentation to improve accuracy
 
-  3)A CNN using ResNet architecture to solve the vanishing gradient problem
+  3)CNN using ResNet architecture to solve the vanishing gradient problem
 
 🔹 Step 3: Transfer Learning with Dog Breed Dataset
 Once I understood CNNs and ResNet, I moved on to Transfer Learning. I used a pre-trained ResNet model to classify dog breeds in a new dataset, learning how to fine-tune existing models for custom tasks.
